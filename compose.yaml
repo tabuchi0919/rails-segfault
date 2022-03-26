@@ -1,0 +1,7 @@
+services:
+  app:
+    build:
+      context: "."
+    command: ./script.sh
+    volumes:
+      - .:/myapp
